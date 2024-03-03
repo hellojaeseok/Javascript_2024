@@ -10,3 +10,5 @@ Following details are the features that you can see
 -Weather conditions according to Location
 
 -Further updates are to be made (Design-wise, Code-wise), for further improvements
+
+JSONs_Value
