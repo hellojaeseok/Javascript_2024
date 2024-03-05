@@ -1,6 +1,6 @@
 const clock = document.querySelector("#clock")
 const calendar = document.querySelector("#date")
-const day = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
+const days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
 
 function getClock(){
     const date = new Date()
@@ -8,7 +8,7 @@ function getClock(){
     const minutes = String(date.getMinutes()).padStart(2,"0")
     const seconds = String(date.getSeconds()).padStart(2,"0")
 
-    calendar.innerText =`${date.getFullYear()}/${date.getMonth()+1}/${date.getDate()}[${day[date.getDay()]}]`
+    calendar.innerText =`${date.getFullYear()}/${date.getMonth()+1}/${date.getDate()}[${days[date.getDay()]}]`
     clock.innerText = `${hours}:${minutes}:${seconds}`
 
 }
