@@ -1,4 +1,4 @@
-# TheScreenApp_Javascript_2024 
+# TheScreenApp_Javascript
 
 Using Javascript to create "The Screen App"
 
